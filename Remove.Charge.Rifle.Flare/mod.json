@@ -1,0 +1,6 @@
+{
+	"Name" : "ඞRemove Charge Rifle Flare",
+	"Description" : "-charge_effect_1p changed to 0 for no flare",
+	"Version": "ඞ1.1",
+	"LoadPriority": 1,
+}

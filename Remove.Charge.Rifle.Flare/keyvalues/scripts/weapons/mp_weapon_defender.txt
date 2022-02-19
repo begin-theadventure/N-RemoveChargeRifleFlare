@@ -1,0 +1,119 @@
+WeaponData
+{
+    "charge_effect_1p"                                ""
+	Mods
+	{
+		slammer
+		{
+		}
+  		 pro_screen
+        {
+			"ui8_enable"		"1"
+        	"bodygroup5_set"	"1"
+        }
+        extended_ammo
+		{
+			"ammo_stockpile_max"				"25"
+			"ammo_default_total"				"25"
+		}
+		burn_mod_defender
+		{
+			"is_burn_mod"									"1"
+
+			//"damage_near_value"   							"300"
+			//"damage_far_value"								"300"
+			//"damage_near_value_titanarmor"					"825"
+			//"damage_far_value_titanarmor" 					"825"
+			"damage_near_value"   							"++20"
+			"damage_far_value"								"++20"
+			"damage_near_value_titanarmor"					"++375"
+			"damage_far_value_titanarmor" 					"++375"
+
+			"charge_effect_1p"								""
+			"charge_effect_3p"								"P_wpn_defender_charge_burn"
+			"tracer_effect"   								"P_wpn_defender_beam_burn"
+			"tracer_effect_first_person"  					"P_wpn_defender_beam_burn"
+
+		}
+
+		quick_charge
+		{
+			"charge_time" 									"*0.33"
+			"charge_cooldown_time"							"*0.66"
+			"charge_cooldown_delay"   						"0.0"
+			"charge_end_forces_fire"						"0"
+
+			//"damage_near_value"   							"300"
+			//"damage_far_value"								"300"
+			//"damage_near_value_titanarmor"					"825"
+			//"damage_far_value_titanarmor" 					"825"
+			"damage_near_value"   							"--250" //55
+			"damage_far_value"								"--250"  //45
+			"damage_near_value_titanarmor"					"--325"
+			"damage_far_value_titanarmor" 					"--325"
+
+			"spread_stand_hip"								"0"
+			"spread_stand_hip_run"							"0"
+			"spread_stand_ads"								"0"
+			"spread_stand_hip_sprint"                       "0"
+			"spread_crouch_hip"   							"0"
+			"spread_crouch_ads"   							"0"
+			"spread_air_hip"  								"0"
+			"spread_air_ads"  								"0"
+
+			"impulse_force"   								"50000"
+		}
+
+		PROTO_at_turret
+		{
+			"ammo_stockpile_max"							"5000"
+			"ammo_clip_size"   								"-1"
+			"ammo_default_total"							"5000"
+			"printname"   									"AT Turret"
+			"shortprintname"								"AT Turret"
+			"charge_time" 									"0.5"
+		}
+		pas_fast_ads
+		{
+			//Fast ADS
+			"zoom_time_in"									"*0.5"
+			"zoom_time_out"   								"*0.6"
+		}
+		pas_fast_swap
+		{
+			//Fast Swap
+			"fast_swap_to"									"1"
+		}
+		tactical_cdr_on_kill
+		{
+
+		}
+		pas_run_and_gun
+		{
+			"primary_fire_does_not_block_sprint"			"1"
+			"crosshair_force_sprint_fade_disabled"          "1"
+		}
+		pas_fast_reload
+		{
+			"reload_time"						"*0.7"
+			"reload_time_late1"					"*0.7"
+			"reloadempty_time"					"*0.7"
+			"reloadempty_time_late1"			"*0.7"
+		}
+		pveBase
+		{
+			"ammo_stockpile_max"				"8"
+			"ammo_default_total"				"8"
+		}
+		at_unlimited_ammo
+		{
+		    "ammo_no_remove_from_stockpile"					"1"
+		}
+		longNPCCharge
+		{
+			"npc_charge_time_min" "2.0"
+			"npc_charge_time_max" "2.0"
+		}
+	}
+
+}
