@@ -1,0 +1,6 @@
+{
+	"Name" : "ඞb-ta.RemoveChargeRifleFlare",
+	"Description" : "-Removes charge rifle flare.\ncharge_effect_1p values changed to empty.\nCredit: Thrasher146 for initial help with keyvalues.\nbegin-theadventure 2023",
+	"Version": "ඞ1.2.7",
+	"LoadPriority": 10
+}
